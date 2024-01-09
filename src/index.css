@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: blueviolet;
+    width: 100%;
+    height: 100px;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-link li {
+    padding: 0 15px;
+}
+
+.num-users {
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.user-list {
+    margin-top: 15px;
+    padding-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.user-card {
+    margin: 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    background-color: white;
+    box-shadow: 0px 1px 5px black;
+    padding: 20px;
+    max-width: 400px;
+    border-radius: 5px;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.editBtn {
+    background: yellow;
+    color: black;
+    border: none;
+    outline: none;
+    padding: 13px 28px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.dltBtn {
+    background: red;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 13px 28px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.update-profile {
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.update-form {
+    width: 500px;
+    padding-left: 20px;
+    margin: 10px 0;
+    flex-direction: column;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+}
